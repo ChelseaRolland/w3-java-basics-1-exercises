@@ -55,21 +55,29 @@ public class javaBasicsOne {
 //        System.out.printf("%s x %s = %s\n", num3, num4, productInt);
 
         //Q6
-        System.out.println("Please input 2 numbers below to get the sum, multiply, subtract, divide, and modulus results");
-        int num5 = scan.nextInt();
-        int num6 = scan.nextInt();
+//        System.out.println("Please input 2 numbers below to get the sum, multiply, subtract, divide, and modulus results");
+//        int num5 = scan.nextInt();
+//        int num6 = scan.nextInt();
+//
+//        int sumInt = num5 + num6;
+//        int productInt1 = num5 * num6;
+//        int subtractInt = num5 - num6;
+//        int divideInt = num5 / num6;
+//        int modulusInt = num5 % num6;
+//
+//        System.out.printf("%s + %s = %s\n", num5, num6, sumInt);
+//        System.out.printf("%s x %s = %s\n", num5, num6, productInt1);
+//        System.out.printf("%s - %s = %s\n", num5, num6, subtractInt);
+//        System.out.printf("%s / %s = %s\n", num5, num6, divideInt);
+//        System.out.printf("%s mod %s = %s\n", num5, num6, modulusInt);
 
-        int sumInt = num5 + num6;
-        int productInt1 = num5 * num6;
-        int subtractInt = num5 - num6;
-        int divideInt = num5 / num6;
-        int modulusInt = num5 % num6;
-
-        System.out.printf("%s + %s = %s\n", num5, num6, sumInt);
-        System.out.printf("%s x %s = %s\n", num5, num6, productInt1);
-        System.out.printf("%s - %s = %s\n", num5, num6, subtractInt);
-        System.out.printf("%s / %s = %s\n", num5, num6, divideInt);
-        System.out.printf("%s mod %s = %s\n", num5, num6, modulusInt);
+        //Q7
+        System.out.println("Please input a number to see what the product will be upto 10.");
+        int userInputNum = scan.nextInt();
+        for (int i = 1; i <= 10; i++) {
+            int userInputNumResult = userInputNum * i;
+            System.out.println(userInputNum + " x " + i + " = " + userInputNumResult);
+        }
 
     }
 }
