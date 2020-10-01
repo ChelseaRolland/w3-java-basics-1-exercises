@@ -89,7 +89,21 @@ public class javaBasicsOne {
         double numResult = ((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
         System.out.println(numResult);
 
+        //Q10
+        double numResult10 = 4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11));
+        System.out.println(numResult10);
 
+        //Q11
+        System.out.println("Please input the radius of a circle");
+        double radius = scan.nextDouble();
+        double areaCircle = Math.PI * Math.pow(radius, 2);
+        double perimeterCircle = 2 * Math.PI * radius;
+
+        System.out.println("This is the radius: " + radius);
+        System.out.println("This is the perimeter of the circle: " + perimeterCircle);
+        System.out.println("This is the area of the circle: " + areaCircle);
+
+        //Q12
 
     }
 }
