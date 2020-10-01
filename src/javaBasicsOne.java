@@ -72,12 +72,18 @@ public class javaBasicsOne {
 //        System.out.printf("%s mod %s = %s\n", num5, num6, modulusInt);
 
         //Q7
-        System.out.println("Please input a number to see what the product will be upto 10.");
-        int userInputNum = scan.nextInt();
-        for (int i = 1; i <= 10; i++) {
-            int userInputNumResult = userInputNum * i;
-            System.out.println(userInputNum + " x " + i + " = " + userInputNumResult);
-        }
+//        System.out.println("Please input a number to see what the product will be upto 10.");
+//        int userInputNum = scan.nextInt();
+//        for (int i = 1; i <= 10; i++) {
+//            int userInputNumResult = userInputNum * i;
+//            System.out.println(userInputNum + " x " + i + " = " + userInputNumResult);
+//        }
+
+        //Q8
+        System.out.println("   J    a   v     v  a ");
+        System.out.println("   J   a a   v   v  a a");
+        System.out.println("J  J  aaaaa   V V  aaaaa");
+        System.out.println(" JJ  a     a   V  a     a");
 
     }
 }
