@@ -79,31 +79,70 @@ public class javaBasicsOne {
 //            System.out.println(userInputNum + " x " + i + " = " + userInputNumResult);
 //        }
 
-        //Q8
-        System.out.println("   J    a   v     v  a ");
-        System.out.println("   J   a a   v   v  a a");
-        System.out.println("J  J  aaaaa   V V  aaaaa");
-        System.out.println(" JJ  a     a   V  a     a");
+//        //Q8
+//        System.out.println("   J    a   v     v  a ");
+//        System.out.println("   J   a a   v   v  a a");
+//        System.out.println("J  J  aaaaa   V V  aaaaa");
+//        System.out.println(" JJ  a     a   V  a     a");
+//
+//        //Q9
+//        double numResult = ((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
+//        System.out.println(numResult);
+//
+//        //Q10
+//        double numResult10 = 4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11));
+//        System.out.println(numResult10);
+//
+//        //Q11
+//        System.out.println("Please input the radius of a circle");
+//        double radius = scan.nextDouble();
+//        double areaCircle = Math.PI * Math.pow(radius, 2);
+//        double perimeterCircle = 2 * Math.PI * radius;
+//
+//        System.out.println("This is the radius: " + radius);
+//        System.out.println("This is the perimeter of the circle: " + perimeterCircle);
+//        System.out.println("This is the area of the circle: " + areaCircle);
 
-        //Q9
-        double numResult = ((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
-        System.out.println(numResult);
+//        //Q12
+//        System.out.println("Please input 3 numbers.");
+//        double num1 = scan.nextDouble();
+//        double num2 = scan.nextDouble();
+//        double num3 = scan.nextDouble();
+//
+//        double average = (num1 + num2 + num3) / 3;
+//
+//        System.out.println("This is the average for the 3 numbers " + average);
 
-        //Q10
-        double numResult10 = 4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11));
-        System.out.println(numResult10);
+//        //Q13
+//        System.out.println("Please input the length and the width of a rectangle");
+//        double length = scan.nextDouble();
+//        double width = scan.nextDouble();
+//
+//        double areaRectangle = length * width;
+//        double perimeterRectangle = (2 * length) + (2 * width);
+//
+//        System.out.printf("Area is %f * %f = %f \n", length, width, areaRectangle);
+//        System.out.printf("Perimeter is %f * %f = %f \n", length, width, perimeterRectangle);
 
-        //Q11
-        System.out.println("Please input the radius of a circle");
-        double radius = scan.nextDouble();
-        double areaCircle = Math.PI * Math.pow(radius, 2);
-        double perimeterCircle = 2 * Math.PI * radius;
+//        //Q14
+//        System.out.println("* * * * * * ==================================                          \n" +
+//                " * * * * *  ==================================                          \n" +
+//                "* * * * * * ==================================                          \n" +
+//                " * * * * *  ==================================                          \n" +
+//                "* * * * * * ==================================                          \n" +
+//                " * * * * *  ==================================                          \n" +
+//                "* * * * * * ==================================                          \n" +
+//                " * * * * *  ==================================                          \n" +
+//                "* * * * * * ==================================                          \n" +
+//                "==============================================                          \n" +
+//                "==============================================                          \n" +
+//                "==============================================                          \n" +
+//                "==============================================                          \n" +
+//                "==============================================                          \n" +
+//                "==============================================");
 
-        System.out.println("This is the radius: " + radius);
-        System.out.println("This is the perimeter of the circle: " + perimeterCircle);
-        System.out.println("This is the area of the circle: " + areaCircle);
+        //Q15
 
-        //Q12
 
     }
 }
